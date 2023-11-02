@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "ICP-polling-system": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle ICP-polling-system",
+            "wasm": ".azle/ICP-polling-system/ICP-polling-system.wasm",
+            "gzip": true
+        }
+    }
+}
+
